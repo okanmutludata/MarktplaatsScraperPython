@@ -85,23 +85,3 @@ while True:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-"""
-
-refresh page every 2 minutes
-	if refreshed page != titel_en_prijs # here you compare the refreshed page with the oude_artikelen, if they are different a new item has been listed
-	print those items that are not in titel_en_prijs
-	send that item in discord chat
-	else do nothing an keep refreshing every 2 minutes.
-
-"""
