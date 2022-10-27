@@ -17,8 +17,8 @@ option.binary_location = "C:\Program Files\Google\Chrome Beta\Application\chrome
 #path = Service('C:\Program Files\Google\Chrome Beta\Application\chrome.exe') #The version needs to keep being updated
 driver = webdriver.Chrome(service=Service(ChromeDriverManager(version='107.0.5304.62').install()), options=option)
 
-#Plak hier de URL waarop je een artikel hebt gezocht en op hebt gefilterd.
-url = 'https://www.marktplaats.nl/q/3ds/#offeredSince:Vandaag|sortBy:SORT_INDEX|sortOrder:DECREASING|postcode:7417CB|searchInTitleAndDescription:true'
+#Plak hier de URL waarop je een artikel hebt gezocht en op hebt gefilterd
+url = ''
 
 #driver.maximize_window()
 driver.get(url)
