@@ -8,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 import telegram
 
-bot = telegram.Bot(token='5460777248:AAE9nOI88ccooecr6hdsMIRcikkuED3Nd2M') #Je telegrambot, ik heb de pytho-telegram-bot library gebrruikt, https://python-telegram-bot.org
+bot = telegram.Bot(token='5460777248:AAE9nOI88ccooecr6hdsMIRcikkuED3Nd2M') #Je telegrambot, ik heb de python-telegram-bot library gebrruikt, https://python-telegram-bot.org
 chat_id = 1468832150
 
 option = Options()
