@@ -8,11 +8,11 @@ import requests
 from bs4 import BeautifulSoup
 import telegram
 
-bot = telegram.Bot(token='5460777248:AAE9nOI88ccooecr6hdsMIRcikkuED3Nd2M') #Je telegrambot, ik heb de python-telegram-bot library gebrruikt, https://python-telegram-bot.org
-chat_id = 1468832150
+bot = telegram.Bot(token='') #Je telegrambot. De token krijg je tijdens het genereren van de bot., ik heb de python-telegram-bot library gebruikt =  https://python-telegram-bot.org
+chat_id = # de Chat ID die je krijgt tijdens het genereren van een de bot
 
 option = Options()
-option.binary_location = "C:\Program Files\Google\Chrome Beta\Application\chrome.exe"
+option.binary_location = "C:\Program Files\Google\Chrome Beta\Application\chrome.exe" // selenium setup
 
 #path = Service('C:\Program Files\Google\Chrome Beta\Application\chrome.exe') #The version needs to keep being updated
 driver = webdriver.Chrome(service=Service(ChromeDriverManager(version='107.0.5304.62').install()), options=option)
